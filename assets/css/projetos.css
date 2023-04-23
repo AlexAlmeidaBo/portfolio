@@ -1,0 +1,87 @@
+
+.titulo h1{
+    text-align: center;
+    font-size: 4.5rem;
+    margin-bottom: 20px;
+}
+
+
+.card-imagens{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card-imagens .card{
+    width: 500px;
+    height: 410px;
+    padding: 20px ;
+    margin: 20px;
+    background: var(--bg-card);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+.card p {
+    font-size: 1rem;
+    letter-spacing: 0.03rem;
+    margin: 20px 0;
+}
+
+
+.card-imagens .img{
+    height: 300px;
+    border-radius: 10px;
+    opacity: 0.5;
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+
+
+.card-imagens .img:hover{
+    opacity: 1;
+    transform: scale(102%);
+    
+}
+
+.img-1{
+    background: url(/imagens/App-Calculadora_.png) top no-repeat;
+    background-size: cover;
+}
+
+.img-2{
+    background: url(/imagens/Galeria.png) top no-repeat;
+    background-size: cover;
+}
+
+.img-3{
+    background: url(/imagens/Game-Mata-Mosquito_.png) center no-repeat;
+    background-size: cover;
+}
+
+.img-4{
+    background-image: url(/imagens/embreve.jpg);
+    background-size:cover;
+    background-position: center;
+}
+
+.links {
+    display: flex;
+    gap: 30px;
+}
+
+.links a{
+    text-decoration: none;
+    color: var(--font-color);
+    font-weight: 700;
+    transition: .5s;
+    text-transform: uppercase;
+}
+
+
+.links a:hover{
+    color: var(--font-verdeClaro);
+}
