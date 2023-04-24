@@ -35,9 +35,7 @@
     height: 300px;
     border-radius: 10px;
     opacity: 0.5;
-    transition: 0.5s;
-    cursor: pointer;
-    
+    transition: 0.5s;    
 }
 
 
@@ -48,22 +46,22 @@
 }
 
 .img-1{
-    background: url(/imagens/App-Calculadora_.png) top no-repeat;
+    background: url(/./imagens/App-Calculadora_.png) top no-repeat;
     background-size: cover;
 }
 
 .img-2{
-    background: url(/imagens/Galeria.png) top no-repeat;
+    background: url(/./imagens/Galeria.png) top no-repeat;
     background-size: cover;
 }
 
 .img-3{
-    background: url(/imagens/Game-Mata-Mosquito_.png) center no-repeat;
+    background: url(/./imagens/Game-Mata-Mosquito_.png) center no-repeat;
     background-size: cover;
 }
 
 .img-4{
-    background-image: url(/imagens/embreve.jpg);
+    background-image: url(/./imagens/embreve.jpg);
     background-size:cover;
     background-position: center;
 }
