@@ -90,3 +90,12 @@ form textarea{
     color: var(--bg-card);
 }
 
+@media(max-width:445px){
+    .contato-box{
+    width:250px;
+    
+    }
+    
+    
+}
+
