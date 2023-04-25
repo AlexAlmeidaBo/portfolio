@@ -88,3 +88,9 @@
 .links a:hover{
     color: var(--font-verdeClaro);
 }
+
+@media(max-width:445px){
+    .card-imagens .img{
+        height:200px;
+    }
+}
