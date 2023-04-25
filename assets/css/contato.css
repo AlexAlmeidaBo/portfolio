@@ -93,10 +93,11 @@ form textarea{
 @media(max-width:445px){
     .contato-box{
      width:200px;
-    grid-area:2/2/10/9;
-    
-    
+    height:400px;
+    grid-area:2/1/10/9;
     }
+    
+    
     
     
 }
