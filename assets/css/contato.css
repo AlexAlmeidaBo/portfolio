@@ -1,4 +1,92 @@
 .container-contato{
-    text-align: center;
-    margin:20px 0 0 0 ;
+    background-color: var(--bg-card);
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
 }
+
+.titulo-contato{
+    grid-area: 1 / 7 / 2 / 9; 
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.titulo-contato h3{
+    font-size: 20px;
+    line-height: 10px;
+    color:var(--verdeClaro);
+}
+
+
+.contato-box{
+    grid-area: 1 / 10 / 10 /9;
+    width: 400px;
+    margin:20px;
+}
+
+.contato-box form{
+    display:flex;
+    flex-direction: column;
+    padding: 20px 40px;
+    background:#181818 ;
+    width: 100%;
+    height: 520px;
+    border-radius: 20px;
+}
+
+
+form label{
+    
+    font-size: 18px;
+    margin:0 0 5px 0;
+    align-items: flex-start;
+}
+
+
+form .input{
+    height: 60px;
+    margin-bottom: 35px;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid var(--font-color);
+}
+
+form .input::placeholder, .input{
+    font-size:15px;
+    padding-left: 10px;
+    font-weight: 500;
+}
+
+form textarea{
+    outline:none;
+    font-size: 16px;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn{
+    margin:30px  auto ;
+    height: 80px;
+    width:200px;
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--font-color);
+    outline: none;
+    border: 1px solid var(--font-color);
+    text-transform: uppercase;
+    border-radius: 10px;
+    cursor:pointer;
+    background: transparent;
+    transition: .5s;
+}
+
+.btn:hover{
+    background-color: var(--font-color);
+    color: var(--bg-card);
+}
+
