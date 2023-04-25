@@ -11,13 +11,20 @@ header{
 
    background-color: transparent;
    backdrop-filter: blur(10px);
+   -webkit-backdrop-filter: blur(10px);
    z-index: 1000;
 }
 
 .logo {
     font-size: clamp(25px,3vw,1.5rem);
     font-weight: 700;
-    color: var(--font-color);
+    color: var(--branco);
+    transition: .5s; 
+    cursor: default;
+}
+
+.logo:hover{
+    transform: scale(120%);
 }
 
 
@@ -28,7 +35,7 @@ ul{
 }
 
 .header-menu .active{
-    color: var(--font-verdeClaro);
+    color: var(--verdeClaro);
 }
 
 
@@ -42,7 +49,7 @@ ul{
 }
 
 .header-menu a:hover{
-    color:var(--font-verdeClaro);
+    color:var(--verdeClaro);
 }
 
 

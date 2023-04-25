@@ -1,8 +1,13 @@
+.container-projetos{
+    margin-top:200px;
+}
 
-.titulo h1{
-    text-align: center;
-    font-size: 4.5rem;
-    margin-bottom: 20px;
+.titulo-projetos h1{
+    margin-bottom:40px ;
+    font-weight: 500;
+    font-size: 4rem;
+    line-height: normal;
+    text-align: center; 
 }
 
 
