@@ -98,7 +98,10 @@ form textarea{
     }
     .contato-box{
      width:250px;
-    height:150px;
+    }
+    
+    .contato-box form{
+        height:400px;
     }
     
     
