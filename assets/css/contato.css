@@ -91,10 +91,14 @@ form textarea{
 }
 
 @media(max-width:445px){
+    
+    .container-contato{
+        display:flex;
+        flex-direction:column;
+    }
     .contato-box{
-     width:200px;
+     width:250px;
     height:200px;
-    grid-area:2/1/10/9;
     }
     
     
