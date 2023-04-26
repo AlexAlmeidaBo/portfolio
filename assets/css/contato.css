@@ -1,15 +1,12 @@
 .container-contato{
     background-color: var(--bg-card);
-    height: 600px;
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: repeat(20, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
+    height: 610px;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .titulo-contato{
-    grid-area: 1 / 7 / 2 / 9; 
     justify-content: center;
     text-align: center;
     margin-top: 10px;
@@ -22,10 +19,20 @@
 }
 
 
-.contato-box{
-    grid-area: 1 / 10 / 10 /9;
-    width: 400px;
-    margin:20px;
+.contato-box{  
+    display: flex;
+    padding:20px;
+    justify-content: space-between;
+}
+
+
+.texto-contato{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    max-width: 500px;
+
 }
 
 .contato-box form{
@@ -33,8 +40,8 @@
     flex-direction: column;
     padding: 20px 40px;
     background:#181818 ;
-    width: 100%;
-    height: 520px;
+    max-width: 300px;
+    height: 480px;
     border-radius: 20px;
 }
 
@@ -54,11 +61,11 @@ form .input{
     border-radius: 5px;
     outline: none;
     border: 1px solid var(--font-color);
+    text-indent: 10px;
 }
 
-form .input::placeholder, .input{
+form .input::placeholder{
     font-size:15px;
-    padding-left: 10px;
     font-weight: 500;
 }
 
@@ -91,17 +98,38 @@ form textarea{
 }
 
 @media(max-width:445px){
-    
+
     .container-contato{
         display:flex;
         flex-direction:column;
+        height: 700px;
     }
+
     .contato-box{
-     width:250px;
+        flex-direction: column;
+    }
+
+    .texto-contato{
+        text-align: center;
+        margin:10px 0;
+
     }
     
     .contato-box form{
-        height:480px;
+        height:415px;
+    }
+
+    form .input{
+        height: 100px;
+        margin-bottom: 20px;
+        width: 100%;
+        border-radius: 5px;
+        outline: none;
+        border: 1px solid var(--font-color);
+    }
+
+    form textarea{
+        font-size:14px;
     }
     
     

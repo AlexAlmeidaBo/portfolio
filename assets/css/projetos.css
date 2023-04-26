@@ -14,8 +14,9 @@
 .card-imagens{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-wrap: wrap;
+    
 }
 
 .card-imagens .card{
@@ -90,7 +91,26 @@
 }
 
 @media(max-width:445px){
+
+    .container-projetos{
+        padding: 0;
+        margin: 0;
+    }
+
+    .card-imagens p, .links {
+        margin: 20px 10px;
+    }
+
+    .card-imagens .card{
+        margin: 10px 0;
+        padding: 0;
+        border-radius:0 0 10px 10px;
+    }
+
     .card-imagens .img{
         height:250px;
+        border-radius:0;
+        
+
     }
 }

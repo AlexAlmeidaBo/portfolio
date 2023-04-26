@@ -73,12 +73,6 @@ h1,h2,h3,h4{
 }
 
 
-
-
-
-
-
-
 @keyframes pisca{
     0%, 100%{
         opacity: 1;
@@ -88,4 +82,8 @@ h1,h2,h3,h4{
         opacity: 0;
     }
 }
-    
+
+
+@media(max-width: 445px){
+   
+}
