@@ -85,5 +85,8 @@ h1,h2,h3,h4{
 
 
 @media(max-width: 445px){
-   
+
+    .container-principal{
+        margin-bottom: 150px;
+    }
 }

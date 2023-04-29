@@ -1,9 +1,10 @@
 .container-projetos{
-    margin-top:200px;
+    margin:100px 0 120px 0;
+   
 }
 
 .titulo-projetos h1{
-    margin-bottom:40px ;
+    margin:40px 0 ;
     font-weight: 500;
     font-size: 4rem;
     line-height: normal;
@@ -16,14 +17,13 @@
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
-    
 }
 
 .card-imagens .card{
-    width: 500px;
+    width: 550px;
     height: 410px;
     padding: 20px ;
-    margin: 20px;
+    margin: 20px 0 10px;
     background: var(--bg-card);
     border-radius: 10px;
     overflow: hidden;
@@ -39,9 +39,9 @@
 
 .card-imagens .img{
     height: 300px;
-    border-radius: 10px;
     opacity: 0.5;
     transition: 0.5s;    
+    border-radius: 10px;
 }
 
 
@@ -94,7 +94,7 @@
 
     .container-projetos{
         padding: 0;
-        margin: 0;
+        margin: 0 ;
     }
 
     .card-imagens p, .links {

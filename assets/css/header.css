@@ -77,7 +77,8 @@ ul{
         align-items: center;
         justify-content: center;
     }
-    .logo, .social-media{
+
+    .logo{
         display: none;
     }
 }
