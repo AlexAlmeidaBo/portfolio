@@ -23,7 +23,7 @@
     width: 550px;
     height: 410px;
     padding: 20px ;
-    margin: 20px 0 10px;
+    margin-bottom: 10px;
     background: var(--bg-card);
     border-radius: 10px;
     overflow: hidden;
