@@ -90,6 +90,28 @@
     color: var(--font-verdeClaro);
 }
 
+@media(max-width: 768px){
+
+    .card-imagens .card{
+        margin: 10px 0;
+        padding: 0;
+        border-radius:0 0 10px 10px;
+    }
+
+
+    .card-imagens .img{
+        height:250px;
+        border-radius:0;
+    }
+    
+
+   
+    .card-imagens p, .links {
+        margin: 20px 10px;
+        font-size: 14px;
+    }
+} 
+
 @media(max-width:445px){
 
     .container-projetos{
@@ -99,6 +121,7 @@
 
     .card-imagens p, .links {
         margin: 20px 10px;
+        font-size: 14px;
     }
 
     .card-imagens .card{
@@ -108,9 +131,7 @@
     }
 
     .card-imagens .img{
-        height:250px;
+        height:220px;
         border-radius:0;
-        
-
     }
 }
