@@ -35,3 +35,16 @@ function type() {
   }
 }
 type()
+
+const isActive = document.querySelector('.isActive');
+const menu = document.querySelector('a');
+
+function active(){
+    if(isActive.classList.contains('isActive')){
+      isActive.classList.remove('isActive')
+    } else {
+      isActive.classList.add('isActive')
+    }
+}
+
+menu.addEventListener('click', active);
