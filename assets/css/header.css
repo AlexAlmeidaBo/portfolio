@@ -52,24 +52,6 @@ ul{
 }
 
 
-.social-media{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-
-
-.social-media i{
-    font-size: 25px;
-    transition: .5s;
-    color: var(--font-color);
-}
-
-.social-media i:hover{
-    color:#fff;
-}
-
-
 @media(max-width: 445px){
     
     header{

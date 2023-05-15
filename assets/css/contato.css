@@ -2,15 +2,15 @@
     background-color: var(--bg-card);
     display: flex;
     flex-direction: column;
-    
-    
 }
+
 
 .titulo-contato{
     justify-content: center;
     text-align: center;
     margin: 10px 0;
 }
+
 
 .titulo-contato h3{
     font-size: 20px;
@@ -33,35 +33,54 @@
     max-width: 500px;
 }
 
-.contato-social-media{
-    margin: 20px 0;
-    
+
+.texto-contato p{
+    margin: 0 20px;
 }
+
+.contato-social-media{
+    margin: 20px;
+}
+
+.social-media{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.social-media i{
+    font-size: 25px;
+    transition: .5s;
+    color: var(--font-color);
+}
+
+.social-media i:hover{
+    color: var(--verdeClaro);
+}
+
 
 
 
 .contato-box form{
     display:flex;
     flex-direction: column;
-    padding: 20px 40px;
+    padding: 20px 30px;
     background:#181818 ;
-    max-width: 300px;
-    height: 480px;
     border-radius: 20px;
+    height: 390px;
 }
 
 
 form label{
-    
-    font-size: 18px;
-    margin:0 0 5px 0;
+    font-size: 16px;
     align-items: flex-start;
 }
 
 
 form .input{
-    height: 60px;
-    margin-bottom: 35px;
+    height: 150px;
+    margin-bottom: 20px;
     width: 100%;
     border-radius: 5px;
     outline: none;
@@ -69,8 +88,12 @@ form .input{
     text-indent: 10px;
 }
 
+form .input:focus{
+    outline:1px solid var(--verdeClaro) ;
+}
+
 form .input::placeholder{
-    font-size:15px;
+    font-size:14px;
     font-weight: 500;
 }
 
@@ -82,11 +105,11 @@ form textarea{
 }
 
 .btn{
-    margin:30px  auto ;
-    height: 80px;
+    margin:40px auto 30px ;
+    height: 120px;
     width:200px;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 14px;
     color: var(--font-color);
     outline: none;
     border: 1px solid var(--font-color);
@@ -187,10 +210,6 @@ form textarea{
 
     form textarea{
         font-size:14px;
-    }
-    
-    
-    
-    
+    } 
 }
 

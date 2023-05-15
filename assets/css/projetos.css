@@ -87,7 +87,7 @@
 
 
 .links a:hover{
-    color: var(--font-verdeClaro);
+    color: var(--verdeClaro);
 }
 
 @media(max-width: 768px){
