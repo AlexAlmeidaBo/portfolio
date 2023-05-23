@@ -36,15 +36,15 @@ function type() {
 }
 type()
 
-const isActive = document.querySelector('.isActive');
+const ativo = document.querySelector('.ativo');
 const menu = document.querySelector('a');
 
 function active(){
-    if(isActive.classList.contains('isActive')){
-      isActive.classList.remove('isActive')
+    if(ativo.classList.contains('ativo')){
+      ativo.classList.remove('ativo')
     } else {
-      isActive.classList.add('isActive')
+      ativo.classList.add('ativo')
     }
 }
 
-menu.addEventListener('click', active);
+menu.addEventListener('click', ativo);
