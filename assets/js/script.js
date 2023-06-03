@@ -1,15 +1,3 @@
-/*const titulo = document.querySelector('.nome');
-function typeWrite(elemento){
-    const textoArray = elemento.innerHTML.split('');
-    elemento.innerHTML = '';   
-    textoArray.forEach( (letra, i) => {
-        setTimeout(function(){
-            elemento.innerHTML += letra; 
-        }, 125 * i)
-    });
-}
-typeWrite(titulo)*/
-
 const typewriter = document.querySelector(".nome");
 const text = "Alex Almeida";
 
@@ -36,15 +24,28 @@ function type() {
 }
 type()
 
-const ativo = document.querySelector('.ativo');
-const menu = document.querySelector('a');
 
-function active(){
-    if(ativo.classList.contains('ativo')){
-      ativo.classList.remove('ativo')
-    } else {
-      ativo.classList.add('ativo')
-    }
+
+function toggleActiveClass() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    links[i].addEventListener('click', function() {
+      if (this.classList.contains('isActive')) {
+        this.classList.remove('isActive');
+      } else {
+        // Remove a classe 'isActive' de todos os links
+        for (var j = 0; j < links.length; j++) {
+          links[j].classList.remove('isActive');
+        }
+
+        this.classList.add('isActive');
+      }
+    });
+  }
 }
 
-menu.addEventListener('click', ativo);
+toggleActiveClass();  
+
+
+
+
