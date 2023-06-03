@@ -51,7 +51,7 @@ ul{
     color:var(--verdeClaro);
 }
 
-.ativo{
+.isActive{
     color: var(--verdeClaro)!important;
 }
 
